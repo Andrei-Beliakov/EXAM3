@@ -68,6 +68,7 @@ body {
   margin: 0 auto;
   gap: 22px 19px;
 }
+
 .card {
   width: 300px;
   min-height: 184px;
@@ -94,6 +95,7 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
 .card__text {
   font-size: 13px;
   line-height: 17px;

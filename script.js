@@ -46,6 +46,8 @@ function createCard(obj) {
 
 //КОРРЕКТОРОВКА МАССИВА КАРТОЧЕК ПО ПОИСКУ
 function searchFunction(event) {
+  document.querySelector(".selected").innerHTML = "0";
+  selected = 0;
   wrap.innerHTML = "";
   let value = event.target.value.trim().toLowerCase();
   selectArr
