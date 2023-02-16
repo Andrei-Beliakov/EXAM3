@@ -18,11 +18,12 @@ body {
   background: #ffffff;
   gap: 20px;
   padding: 24px;
+  justify-content: center;
 }
 
 .form__input {
   display: block;
-  width: 356px;
+  width: 600px;
   height: 38px;
   outline: none;
   font-family: "Inter";
@@ -61,7 +62,7 @@ body {
   flex-wrap: wrap;
   flex-direction: row;
   max-width: 1024px;
-  margin: 0 px auto 0;
+  margin: 0 auto;
   gap: 22px 19px;
 }
 .card {
@@ -74,17 +75,22 @@ body {
   background-color: #ffffff;
   border-radius: 4px;
 }
+.invert {
+  background-color: #8a8080;
+  color: #ffffff;
+}
 
 .card__title {
   font-size: 17px;
   line-height: 28px;
   font-weight: 700;
-  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card__text {
   font-size: 13px;
   line-height: 17px;
-  color: #3f444a;
   max-width: 268px;
 }
 
